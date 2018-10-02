@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Course.DataAccess"
+             x:Class="Course.DataAccess.MainPage"
+             Title="ELEMENTI">
+
+    <ContentPage.Resources>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem Text="NUOVO" Icon="add2.png" Clicked="ToolbarItem_Clicked" Order="Primary"></ToolbarItem>
+        <ToolbarItem Text="NUOVO" Icon="add2_big.png" Order="Primary"></ToolbarItem>
+
+        <ToolbarItem Text="PULSANTE1" Order="Secondary"></ToolbarItem>
+        <ToolbarItem Text="PULSANTE2" Order="Secondary"></ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ListView x:Name="ListViewElementi" ItemTapped="ListViewElementi_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill">
+                        
+                        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                            <Label Text="{Binding Name}"></Label>
+                            <Label Text="{Binding Description}"></Label>
+                        </StackLayout>
+
+                        <Button x:Name="EditButton" Text="DELETE" 
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                Clicked="EditButton_Clicked"></Button>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+    
+</ContentPage>
