@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.AndroidService.Android", "Course.AndroidService\Course.AndroidService.Android\Course.AndroidService.Android.csproj", "{FE9250AE-FA7D-46A8-90EE-231B800100B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.AndroidService", "Course.AndroidService\Course.AndroidService\Course.AndroidService.csproj", "{F79230D0-9A34-4D8F-8A81-6B47A9322662}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE9250AE-FA7D-46A8-90EE-231B800100B1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79230D0-9A34-4D8F-8A81-6B47A9322662}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E841671-7217-48E7-9950-D7ADBDFB9A82}
+	EndGlobalSection
+EndGlobal

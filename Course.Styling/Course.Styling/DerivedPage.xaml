@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<local:MyBasePage
+    xmlns:local="clr-namespace:Course.Styling"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Course.Styling.DerivedPage">
+    
+    
+    
+    <local:MyBasePage.Content>
+        <StackLayout>
+
+            <local:MyContentView x:Name="contentView" ButtonText="aaaa">
+                
+            </local:MyContentView>
+            
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </local:MyBasePage.Content>
+</local:MyBasePage>
