@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Course.DemoGPS"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="Course.DemoGPS.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+        <maps:Map WidthRequest="320" HeightRequest="200"
+            x:Name="MyMap"
+            IsShowingUser="true"
+            MapType="Hybrid"
+        />  
+
+        <Button x:Name="ButtonGetGPSPosition" Clicked="ButtonGetGPSPosition_Clicked"></Button>
+        <Label x:Name="LabelPosition"></Label>
+        
+        <Button x:Name="ButtonGetGPSPositionContinuousStart" Clicked="ButtonGetGPSPositionContinuousStart_Clicked"></Button>
+        <Button x:Name="ButtonGetGPSPositionContinuousStop" Clicked="ButtonGetGPSPositionContinuousStop_Clicked"></Button>
+        <Label x:Name="LabelPositionContinous"></Label>
+        
+    </StackLayout>
+
+</ContentPage>
